@@ -1,0 +1,36 @@
+\hypertarget{Yahtzee_8h_source}{}\doxysection{Yahtzee.\+h}
+\mbox{\hyperlink{Yahtzee_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef YAHTZEE\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define YAHTZEE\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{player_8h}{player.h}}"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{classYahtzee}{Yahtzee}} \{}
+\DoxyCodeLine{8     \textcolor{keyword}{const} \textcolor{keyword}{static} \textcolor{keywordtype}{int} MAX\_ROUNDS = 13;}
+\DoxyCodeLine{9     \textcolor{keywordtype}{int} sve\_cnt = 0;}
+\DoxyCodeLine{10     \textcolor{keywordtype}{int} round;}
+\DoxyCodeLine{11     std::vector<Player*> players;}
+\DoxyCodeLine{12     \mbox{\hyperlink{classPlayer}{Player}} * last\_player;}
+\DoxyCodeLine{13     std::array<int, MAX\_ROUNDS> scores;}
+\DoxyCodeLine{14     \textcolor{keywordtype}{bool} done;}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{classYahtzee_acf619b5c2c3105a05ad74f8ef2595a76}{Yahtzee}}();  \textcolor{comment}{// Default Constructor}}
+\DoxyCodeLine{17     \mbox{\hyperlink{classYahtzee_a96f4d9c19ce638aecc89980b99e48fbb}{\string~Yahtzee}}(); \textcolor{comment}{// Deconstructor}}
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} \mbox{\hyperlink{classYahtzee_ac1f7a7feae528f92356fa9b97c231e21}{play}}();}
+\DoxyCodeLine{19 \textcolor{keyword}{private}:}
+\DoxyCodeLine{20     \textcolor{keywordtype}{void} print\_rules();}
+\DoxyCodeLine{21     \textcolor{keywordtype}{bool} load();}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} setup\_players();}
+\DoxyCodeLine{23     \textcolor{keywordtype}{int} player\_turn(\textcolor{keywordtype}{int} index);}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} readyup();}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} save\_game();}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} print\_scores();}
+\DoxyCodeLine{27     \textcolor{keywordtype}{bool} two\_of\_a\_kind(\textcolor{keywordtype}{int} rolCts[], \textcolor{keywordtype}{int} Size, \textcolor{keywordtype}{int} \&index);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \};}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

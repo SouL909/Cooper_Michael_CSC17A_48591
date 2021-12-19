@@ -1,0 +1,7 @@
+<map id="player.h" name="player.h">
+<area shape="rect" id="node1" title=" " alt="" coords="121,5,196,32"/>
+<area shape="rect" id="node2" href="$Yahtzee_8h.html" title=" " alt="" coords="62,80,146,107"/>
+<area shape="rect" id="node5" href="$player_8cpp.html" title=" " alt="" coords="170,80,259,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title=" " alt="" coords="5,155,88,181"/>
+<area shape="rect" id="node4" href="$yahtzee_8cpp.html" title=" " alt="" coords="112,155,213,181"/>
+</map>
